@@ -4,7 +4,7 @@ class RestaurantDatabase {
     private $port = "3306";
     private $database = "restaurant_reservations";
     private $user = "root";
-    private $password = "Faysudi@1";
+    private $password = "";
     private $connection;
 
     public function __construct() {
